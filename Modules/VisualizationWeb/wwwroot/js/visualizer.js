@@ -129,8 +129,6 @@ class Chart {
 
         /* End FFT Button */
 
-
-
         /* Create charts */
         this.htmlChart = document.createElement("div");
         this.htmlChart.id = this.chartName;

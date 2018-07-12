@@ -25,6 +25,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Orchestrator", "Modules\Orc
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VisualizationWeb", "Modules\VisualizationWeb\VisualizationWeb.csproj", "{17C4E4BB-C0A9-4921-BE2B-95122644EC57}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FFT", "Modules\FFT\FFT.csproj", "{896F9700-B4D0-4F66-AB0D-B747F32DC544}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -92,6 +94,12 @@ Global
 		{17C4E4BB-C0A9-4921-BE2B-95122644EC57}.Release|Any CPU.Build.0 = Release|Any CPU
 		{17C4E4BB-C0A9-4921-BE2B-95122644EC57}.TemplateDevelopment|Any CPU.ActiveCfg = Debug|Any CPU
 		{17C4E4BB-C0A9-4921-BE2B-95122644EC57}.TemplateDevelopment|Any CPU.Build.0 = Debug|Any CPU
+		{896F9700-B4D0-4F66-AB0D-B747F32DC544}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{896F9700-B4D0-4F66-AB0D-B747F32DC544}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{896F9700-B4D0-4F66-AB0D-B747F32DC544}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{896F9700-B4D0-4F66-AB0D-B747F32DC544}.Release|Any CPU.Build.0 = Release|Any CPU
+		{896F9700-B4D0-4F66-AB0D-B747F32DC544}.TemplateDevelopment|Any CPU.ActiveCfg = Debug|Any CPU
+		{896F9700-B4D0-4F66-AB0D-B747F32DC544}.TemplateDevelopment|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
