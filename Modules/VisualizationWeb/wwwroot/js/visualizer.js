@@ -129,8 +129,6 @@ class Chart {
 
         /* End FFT Button */
 
-
-
         /* Create charts */
         this.htmlChart = document.createElement("div");
         this.htmlChart.id = this.chartName;
@@ -242,7 +240,6 @@ function drawFFT(chart) {
     }
     // Header
     result.unshift(["Timestamp", "Real", "Imag"]);
-    console.log(result);
     var dataFFTTable = google.visualization.arrayToDataTable(result);
 
     /* Clear the chart, releasing resources */
@@ -343,7 +340,4 @@ function FFTNayuki(n) {
     this.inverse = function (real, imag) {
         forward(imag, real);
     }
-    var options2 = {
-        title: 'FFT Chart', hAxis: { title: 'Timestamp' }, vAxis: { title: 'Value' }, curveType: 'function', legend: { position: 'bottom' }
-    };
 }
